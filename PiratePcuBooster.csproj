@@ -185,6 +185,11 @@
     <Compile Include="PiratePcuBooster\Data\Scripts\Thraxus\Core.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="PiratePcuBooster\Data\metadata.mod" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PiratePcuBooster\Data\modinfo.sbmi" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
