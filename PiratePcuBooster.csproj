@@ -186,10 +186,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PiratePcuBooster\Data\metadata.mod" />
+    <Content Include="PiratePcuBooster\metadata.mod" />
+    <Content Include="PiratePcuBooster\Thumb.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="PiratePcuBooster\Data\modinfo.sbmi" />
+    <None Include="PiratePcuBooster\modinfo.sbmi" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
